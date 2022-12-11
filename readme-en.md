@@ -1,3 +1,17 @@
+## Inery Task Docker
+
+The purpose of this repository is to make it easier for you to install Node and run its tasks. All of the steps and tasks below should be run within Docker. If you want to use this version of inery-automation, you will need to reinstall your Node using the instructions in step 2 below.
+
+**Requirements:**
+
+delete and uninstall previous inery node, kill its process
+
+```
+pkill nodine
+```
+
+
+
 ## 1. Update OS 
 
 ```
@@ -54,7 +68,7 @@ Edit required parameters
 make install.docker
 ```
 
-
+run `docker version` to check if docker installed in your node
 
 #### Install Master Node
 
@@ -70,8 +84,7 @@ make install.node
 make node.master
 ```
 
-Check master node logs
-make sure that node picking up new block
+Check master node logs, make sure that node picking up new block
 
 ```makefile
 make logs.master
@@ -95,10 +108,19 @@ make menu
 
 
 
+#### Create your wallet
+
+```shell
+make menu
+```
+
+go to Wallet Menu, choose create new wallet and input your wallet name
+
+
+
 ## All command references
 
-
-Installation Command
+##### Installation Command
 
 | Command                   | Functions                                                    |
 | ------------------------- | ------------------------------------------------------------ |
@@ -107,8 +129,7 @@ Installation Command
 | `make install.node`       | To install inery-node                                        |
 | `make create.volume`      | To create `~/inery/inery-node-vol` directory to save all blockchain data in there |
 
-
-Node related Command
+##### Node related Command
 
 | Command             | Functions                       |
 | ------------------- | ------------------------------- |
@@ -124,15 +145,15 @@ Node related Command
 | `make logs.lite`    | show logs for lite nod          |
 | `make logs.master`  | show logs for master node       |
 
+##### Inery Automation
 
-Inery Automation
+Just use **Create Wallet** menu, and **Task 1 - 3** menu, since we have created our inery node in previous step.
 
 | Command     | Functions                     |
 | ----------- | ----------------------------- |
 | `make menu` | to show inery-automation menu |
 
-
-Management Command
+##### Management Command
 
 | Command                 | Functions                                      |
 | ----------------------- | ---------------------------------------------- |
