@@ -33,10 +33,10 @@ node.kill:
 	docker compose exec -it inery-node sh -c "pkill nodine"
 
 node.stop:
-	docker compose exec -it inery-node sh -c "./inery.setup/master.node/stop.sh;"
+	docker compose exec -it inery-node sh -c "./inery-node/inery.setup/master.node/stop.sh;"
 
 node.start:
-	docker compose exec -it inery-node sh -c "./inery.setup/master.node/start.sh"
+	docker compose exec -it inery-node sh -c "./inery-node/inery.setup/master.node/start.sh"
 
 node.bash:
 	docker compose exec inery-node bash
