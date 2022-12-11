@@ -1,4 +1,4 @@
-## Update OS 
+## 1. Update OS 
 
 ```
 sudo apt update && sudo apt upgrade -y
@@ -6,7 +6,7 @@ sudo apt update && sudo apt upgrade -y
 
 
 
-## Install Requirements
+## 2. Install Requirements
 
 ```
 sudo apt-get install -y git make
@@ -14,7 +14,7 @@ sudo apt-get install -y git make
 
 
 
-## Clone Repositories
+## 3. Clone Repositories
 
 ```
 git clone https://github.com/alteregogi/inery-task-docker.git
@@ -46,9 +46,9 @@ Edit required parameters
 
 
 
-## Installation
+## 4. Installation
 
-Install Docker
+#### Install Docker
 
 ```shell
 make install.docker
@@ -79,7 +79,7 @@ make logs.master
 
 
 
-Install task automation
+#### Install task automation
 
 ```makefile
 make install.automation
