@@ -3,6 +3,7 @@ services:
   inery-node:
     container_name: inery-node
     image: alteregogi/inery-node
+    init: true
     build:
       context: https://github.com/alteregogi/inery-node-docker.git
         
