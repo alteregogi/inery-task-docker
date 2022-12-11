@@ -1,6 +1,6 @@
 ## Inery Task Docker
 
-The purpose of this repository is to make it easier for you to install Node and run its tasks. All of the steps and tasks below should be run within Docker. If you want to use this version of inery-automation, you will need to reinstall your Node using the instructions in step 2 below.
+The purpose of this repository is to make it easier for you to install Node and run its tasks. All of the steps and tasks below should be run within Docker. If you want to use this version of inery-automation, you will need to reinstall your Node using the instructions in step below.
 
 **Requirements:**
 
