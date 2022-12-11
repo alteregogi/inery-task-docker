@@ -2,11 +2,13 @@
 install.docker:
 	curl -fsSL https://get.docker.com -o get-docker.sh
 	sh get-docker.sh
+	sudo apt-get install -y uidmap
+	dockerd-rootless-setuptool.sh install
 
 install.automation:
 	docker compose exec -it inery-node sh -c "git clone https://github.com/briliant1/inery-automation.git \
 												&& chmod +x ./inery-automation/ineryMenu.py \
-												&& pip3 install -r requirements.txt"
+												&& pip3 install -r ./inery-automation/requirements.txt"
 
 install.node:
 	sudo ufw allow 9010
