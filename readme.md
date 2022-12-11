@@ -85,7 +85,6 @@ make logs.master
 
 **Master node installation selesai tinggal nunggu sync aja** 
 
-
 #### Install task automation
 
 ```makefile
@@ -106,8 +105,7 @@ make menu
 
 ## Semua penjelasan command
 
-
-Command buat installation
+##### Command buat installation
 
 | Command                   | Functions                                                    |
 | ------------------------- | ------------------------------------------------------------ |
@@ -116,8 +114,7 @@ Command buat installation
 | `make install.node`       | Buat awal install node                                       |
 | `make create.volume`      | Buat bikin folder `~/inery/inery-node-vol` karena semua data blockchain bakal di masukin ke folder tersebut |
 
-
-Node related Command
+##### Node related Command
 
 | Command             | Functions                               |
 | ------------------- | --------------------------------------- |
@@ -133,15 +130,13 @@ Node related Command
 | `make logs.lite`    | Buat munculin logs lite node            |
 | `make logs.master`  | Buat munculin logs master node          |
 
-
-Inery Automation
+##### Inery Automation
 
 | Command     | Functions                           |
 | ----------- | ----------------------------------- |
 | `make menu` | Buat munculin menu inery-automation |
 
-
-Management Command
+##### Management Command
 
 | Command                 | Functions                                                    |
 | ----------------------- | ------------------------------------------------------------ |
