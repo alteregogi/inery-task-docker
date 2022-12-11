@@ -61,6 +61,11 @@ Penjelasan parametersnya
 make install.docker
 ```
 
+check docker udah ke install belum pakai command ini, kalau ada muncul version berarti docker udah ke install.
+```
+docker version
+```
+
 
 
 #### Install Master Node
