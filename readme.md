@@ -150,4 +150,5 @@ make menu
 | `make delete.image`     | delete node image                                            |
 | `make delete.volume`    | delete volume                                                |
 | `make all`              | delete semua related node di dlm docker dan bikin baru master nodenya. |
+| `make update`           | Update inery-task-docker                                     |
 
