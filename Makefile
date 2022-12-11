@@ -62,3 +62,9 @@ logs.lite:
 	docker compose exec -it inery-node sh -c "tail -f /root/inery-node/inery.setup/lite.node/blockchain/nodine.log"
 
 all: delete.container delete.image create.node create.master
+
+update:
+	cd ..
+	rm -rf inery-task-docker/
+	git clone https://github.com/alteregogi/inery-task-docker.git
+	cd inery-task-docker/
