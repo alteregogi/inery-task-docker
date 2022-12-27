@@ -139,7 +139,7 @@ make menu
 
 | Command     | Functions                           |
 | ----------- | ----------------------------------- |
-| `make menu` | Buat munculin menu inery-automation |
+| `make menu` | Buat munculin menu inery-automation, documentation baca di https://github.com/briliant1/inery-automation |
 
 ##### Management Command
 
